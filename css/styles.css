@@ -1,3 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap');
+@font-face {
+  font-family: 'COCOGOOSE';
+  src: url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot');
+  src: url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE')
+      format('svg');
+}
+.body {
+  min-width: 25rem;
+}
 
+/* General fonts */
+
+* {
+  font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1,
+h2 {
+  font-family: Cocogoose, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3 {
+  font-weight: 700;
+}
+
+#date {
+  color: #494949;
+}
+/* Langbar */
+.language-bar {
+  background-color: #000;
+  height: 1.5rem;
+  font-size: 0.8rem;
+}
+
+#twitter-icon {
+  height: 0.8rem;
+}
+
+#facebook-icon {
+  height: 1rem;
+}
 /* Navbar */
+.row {
+  width: 100%;
+}
+/* Home */
+
+.card {
+  align-items: baseline;
+}
+
+.card > * {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.card-img-top {
+  display: flex;
+  height: 2rem;
+}
+
+.card-img-top.custom-card-image {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* Partner */
+.partner-logo {
+  max-width: 10rem;
+}
+
+/* Footer */
+.cc-header {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.cc-content {
+  font-size: 0.8rem;
+}
+
+/* Mobile */
+@media all and (max-width: 35em) {
+  .card-title {
+    font-size: 1.1rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
+  }
+}
+@media all and (max-width: 50em) {
+  .cc-content {
+    display: none;
+  }
+}
