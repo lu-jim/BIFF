@@ -20,7 +20,7 @@ const film1 = new Film(
 const film2 = new Film(
   'Leda',
   'Samuel Tessler IV, (Dir) 75 minutes, USA, WNY Premiere',
-  `A young woman's isolation and terror lead to madness in this retelling of the Greek myth`,
+  "A young woman's isolation and terror lead to madness in this retelling of the Greek myth",
   '../assets/leda.jpeg',
 );
 
@@ -66,7 +66,7 @@ function showLineup(referenceNode) {
   const filmDiv = createNode('div', 'film row p-3 p-md-5');
   lineup.appendChild(filmDiv);
   const lineupHeader = filmDiv.appendChild(createNode('h2', 'd-flex justify-content-center py-4'));
-  lineupHeader.innerHTML = '2021 Lineup'
+  lineupHeader.innerHTML = '2021 Lineup';
   lineup2021.forEach((film) => {
     const filmLeft = filmDiv.appendChild(createNode('div', 'col-12 col-md-6 col-lg-3 p-2'));
     const filmImg = filmLeft.appendChild(createNode('img', 'film-image'));
