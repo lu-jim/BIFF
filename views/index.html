@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="mb-4">
     <div class="language-bar d-lg-flex ms-auto justify-content-end d-none">
       <ul class="d-flex list-unstyled text-light">
         <li class="language-bar-item px-3"><img id="twitter-icon" src="../assets/twitter-logo.svg" alt="twitter"></li>
@@ -34,7 +34,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <a class="navbar-brand" href="#">Buffalo Int'l Film Festival</a>
+          <a class="navbar-brand " href="#">Buffalo Int'l Film Festival</a>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">About</a>
@@ -59,21 +59,22 @@
       </div>
     </nav>
   </header>
-  <main>
-    <section class="home-title">
-      <h1>Buffalo International Film Festival</h1>
-      <p>We provide Western New York audiences and visitors access to the very best offerings in contemporary local,
+  <main id="base-style">
+    <section class="home-title d-flex flex-column p-3 p-md-5 m-md-3">
+      <h1 class="main-title display-1">Buffalo International Film Festival</h1>
+      <p class="main-subtitle p-1 py-md-3 my-md-1 col-md-6">We provide Western New York audiences and visitors access to the
+        very best offerings in contemporary local,
         national, and world cinema.</p>
-      <h2 id="date">2021.10.7(THU) ~ 11(SUN)</h2>
+      <h2 id="date" class="py-1 py-md-3 my-md-1">2021.10.7(THU) ~ 11(SUN)</h2>
       <p>@ North Park Theatre, Hallwalls Contemporary Art Center, and more</p>
     </section>
-    <section class="main-program">
-      <div class="program-title d-flex justify-content-center">
+    <section class="main-program text-light d-flex flex-column p-3 p-md-5 justify-content-center">
+      <div class="program-title d-flex justify-content-center py-4">
         <h3>Main Program</h3>
       </div>
       <div class="d-flex flex-column row-cols-lg-5 flex-md-row gx-md-5">
         <div class="col px-lg-1 d-flex flex-md-column card-column">
-          <div class="row align-baseline">
+          <div class="row align-baseline program-card my-2 py-3 h-100">
             <div class="col-2 col-md-12"><img src="../assets/01-lecture.png" class="card-img-top custom-card-image"
                 alt="...">
             </div>
@@ -87,7 +88,7 @@
 
         </div>
         <div class="col px-lg-1 d-flex flex-md-column card-column">
-          <div class="row">
+          <div class="row program-card my-2 py-3  h-100">
             <div class="col-2  col-md-12"> <img src="../assets/02-cc-exhibition.png"
                 class="card-img-top  custom-card-image" alt="..."></div>
             <div class="col-3  col-md-12">
@@ -101,7 +102,7 @@
           </div>
         </div>
         <div class="col px-lg-1 d-flex flex-md-column card-column">
-          <div class="row">
+          <div class="row program-card my-2 py-3  h-100">
             <div class="col-2 col-md-12"><img src="../assets/03-forum.png" class="card-img-top  custom-card-image"
                 alt="...">
             </div>
@@ -116,7 +117,7 @@
           </div>
         </div>
         <div class="col px-lg-1 d-flex flex-md-column card-column">
-          <div class="row">
+          <div class="row program-card my-2 py-3  h-100">
             <div class="col-2  col-md-12"><img src="../assets/04-opportunities.png"
                 class="card-img-top  custom-card-image" alt="..."></div>
             <div class="col-3  col-md-12">
@@ -130,7 +131,7 @@
           </div>
         </div>
         <div class="col px-lg-1 d-flex flex-md-column card-column">
-          <div class="row">
+          <div class="row program-card my-2 py-3 h-100">
             <div class="col-2  col-md-12"> <img src="../assets/05-buy-pass.png" class="card-img-top  custom-card-image"
                 alt="..."></div>
             <div class="col-3  col-md-12">
@@ -144,18 +145,15 @@
           </div>
         </div>
       </div>
-      <div>
-        <a href="#" class="main-program-link">See the whole program</a>
+      <div class="d-flex w-100 justify-content-center py-4">
+        <button type="button" class="btn btn-danger p-3 fs-2 bo">Buy Pass</button>
       </div>
     </section>
-    <section class="featured-speakers">
 
-    </section>
-
-    <section class="partner">
-      <h3 class="d-flex justify-content-center">Partner</h3>
-      <div class="row row-cols-auto gx-5 d-flex justify-content-center gap-1 gap-md-3 gap-lg-4">
-        <div class="col row-cols-1">
+    <section class="partner py-5" id="partner">
+      <h3 class="d-flex justify-content-center text-light">Partners</h3>
+      <div class="row row-cols-auto gx-5 d-flex justify-content-center gap-1 gap-md-3 gap-lg-4 py-5">
+        <div class="col">
           <img alt="NYSCA" class="partner-logo"
             src="https://images.ctfassets.net/5d2t8cwaye54/6zTgRmypTfnjaSLIDlxWjT/89bcf8e325faf28839f0e4f710303b1f/NYSCA-logo-2.jpg?w=500&amp;h=500&amp;fm=jpg">
         </div>
@@ -178,16 +176,22 @@
       </div>
     </section>
   </main>
-  <footer class="d-flex">
-<img src="../assets/CreativeCommons_logo_trademark.svg" alt="Creative Commons" class="creative-commons">
-<div>
-  <p class="cc-header">2015 Creative Commons Korea. Some Rights Reserved.</p>
-  <p class="cc-content">‘크리에이티브 커먼즈(Creative Commons)’ 및 ‘크리에이티브 커먼즈 코리아(Creative Commons Korea)’는 본 이용허락의 당사자가 아니며 저작물에 대하여 어떠한 보증도 하지 않습니다. <a href="https://creativecommons.org/licenses/by/2.0/kr/">https://creativecommons.org/licenses/by/2.0/kr/</a></p>
-</div>
-</footer>
+  <footer class="w-100 footer py-2 d-flex justify-content-center align-items-baseline">
+    <div class="footer-wrapper d-flex row justify-content-center">
+      <img src="../assets/CreativeCommons_logo_trademark.svg" alt="Creative Commons" class="cc-logo col-4">
+      <div class="d-flex py-5 flex-column col-8">
+        <p class="cc-header">2015 Creative Commons Korea. Some Rights Reserved.</p>
+        <p class="cc-content">‘크리에이티브 커먼즈(Creative Commons)’ 및 ‘크리에이티브 커먼즈 코리아(Creative Commons Korea)’는 본 이용허락의 당사자가
+          아니며 저작물에 대하여 어떠한 보증도 하지 않습니다. <a
+            href="https://creativecommons.org/licenses/by/2.0/kr/">https://creativecommons.org/licenses/by/2.0/kr/</a>
+        </p>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <script src="../js/script.js"></script>
 </body>
 
 </html>
