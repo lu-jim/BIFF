@@ -223,9 +223,13 @@ h3 {
 }
 
 /* md */
-@media all and (max-width: 48em) {
-  .cc-content {
-    display: none;
+@media all and (min-width: 62em) {
+  .footer {
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
+  .cc-logo {
+    filter: invert(1);
   }
 }
 
@@ -239,4 +243,28 @@ h3 {
 .about-subtitle {
   background-color: #fff;
   border: 2px solid #ededed;
+}
+
+.runaway {
+  height: 25vh;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: #C04848;  /* fallback for old browsers */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("https://images.ctfassets.net/5d2t8cwaye54/1x55iwLGnUM5yiyRjYj0Wv/8abdc8461c22bcf1352a7cce9a610d5f/RunawayFeature2.jpg?w=1440&h=616&fit=fill&fm=webp");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("https://images.ctfassets.net/5d2t8cwaye54/1x55iwLGnUM5yiyRjYj0Wv/8abdc8461c22bcf1352a7cce9a610d5f/RunawayFeature2.jpg?w=1440&h=616&fit=fill&fm=webp"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.the-garden {
+  height: 25vh;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: #C04848;  /* fallback for old browsers */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("https://images.ctfassets.net/5d2t8cwaye54/qXwhbLkSZUVxmUp1EjAnW/8ee4082a4eb9aad3b36380aa16868703/The_Garden_Left_Behind_1.jpg?w=1440&h=616&fit=fill&fm=webp");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("https://images.ctfassets.net/5d2t8cwaye54/qXwhbLkSZUVxmUp1EjAnW/8ee4082a4eb9aad3b36380aa16868703/The_Garden_Left_Behind_1.jpg?w=1440&h=616&fit=fill&fm=webp"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
