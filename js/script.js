@@ -69,11 +69,12 @@ function showLineup(referenceNode) {
   lineupHeader.innerHTML = '2021 Lineup';
   lineupHeader.appendChild(createNode('hr', 'divider'));
   lineup2021.forEach((film) => {
-    const filmLeft = filmDiv.appendChild(createNode('div', 'col-12 col-md-6 col-lg-3 p-2'));
+    const filmLeft = filmDiv.appendChild(createNode('div', 'col-6 col-lg-3 p-2'));
+    const filmFrame = filmLeft.appendChild(createNode('img', 'image-frame'));
+    filmFrame.src = '../assets/chess_board.svg';
     const filmImg = filmLeft.appendChild(createNode('img', 'film-image'));
     filmImg.src = film.image;
-
-    const filmRight = filmDiv.appendChild(createNode('div', 'col-12 col-md-6 col-lg-3 d-flex flex-column'));
+    const filmRight = filmDiv.appendChild(createNode('div', 'col-6 col-lg-3 col-lg-3 d-flex flex-column'));
     const filmTitle = filmRight.appendChild(createNode('h3', 'film-title'));
     const filmDescription = filmRight.appendChild(createNode('h4', 'film-subtitle mb-0'));
     filmRight.appendChild(createNode('hr', 'film-divider'));
