@@ -14,6 +14,8 @@ Additional description about the project and its features.
 - Flexbox
 - Bootstrap
 - Javascript
+## Live Demo
+[Live Demo Link](https://lu-jim.github.io/capstone-01/views/index.html)
 
 
 ## Getting Started
