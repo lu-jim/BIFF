@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap');
+
+@font-face {
+  font-family: 'COCOGOOSE';
+  src: url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot');
+  src:
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix')
+    format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2')
+    format('woff2'),
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff')
+    format('woff'),
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf')
+    format('truetype'),
+    url('//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE')
+    format('svg');
+}
+
+.body {
+  min-width: 25rem;
+}
+
+/* General fonts */
+
+* {
+  font-family:
+    Lato,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+}
+
+h1,
+h2 {
+  font-family:
+    Cocogoose,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+#date {
+  color: #494949;
+}
+
+#base-style {
+  background-color: #d3d3d3;
+}
+
+#about-page {
+  background-color: #f7f7f7;
+}
+
+/* Langbar */
+.language-bar {
+  background-color: #000;
+  height: 1.5rem;
+  font-size: 0.8rem;
+}
+
+#twitter-icon {
+  height: 0.8rem;
+}
+
+#facebook-icon {
+  height: 1rem;
+}
+
+/* Navbar */
+.row {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family:
+    Cocogoose,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+}
+
+/* Home */
+.home-title {
+  height: 75vh;
+}
+
+.main-title {
+  color: #ec5242;
+  text-transform: uppercase;
+}
+
+.main-subtitle {
+  line-height: 2rem;
+  border: 3px solid #f7f7f7;
+  background-color: #fff;
+}
+
+.buy-pass {
+  border: #ec5242 solid 4px;
+}
+
+/* Main Program */
+.main-program {
+  background-color: #272a31;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%2321242D' stroke-width='5.4'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2321242D'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.program-card {
+  background-color: rgba(211, 211, 211, 0.1);
+}
+
+.card-title {
+  color: #ec5242;
+}
+
+.divider {
+  background-color: #ec5242;
+  width: 4rem;
+  padding: 0.1rem 0;
+  opacity: 100;
+}
+
+.film-divider {
+  background-color: #ec5242;
+  width: 2rem;
+  padding: 0.05rem 0;
+  opacity: 100;
+}
+
+.about-divider {
+  background-color: #ededed;
+  width: 100%;
+  padding: 0.05rem 0;
+  opacity: 100;
+}
+
+.card-img-top {
+  display: flex;
+  height: 2rem;
+}
+
+.card-img-top.custom-card-image {
+  width: 4rem;
+  height: 4rem;
+}
+
+.btn {
+  font-family:
+    Cocogoose,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+  border-radius: 0;
+}
+
+.btn-danger {
+  background-color: #ec5242;
+}
+
+/* Lineup 2021 */
+
+.film-subtitle {
+  font-style: italic;
+  font-size: 1rem;
+  color: #ec5242;
+}
+
+.film-image {
+  position: relative;
+  display: flex;
+  width: 100%;
+  z-index: 2;
+  top: -5rem;
+}
+
+.image-frame {
+  width: 5rem;
+  float: left;
+  position: relative;
+  left: -1rem;
+  top: -1rem;
+  z-index: 1;
+}
+
+/* Partner */
+
+.partner {
+  background-color: #272a31;
+}
+
+.partner-text {
+  filter: opacity(50%);
+}
+
+.partner-logo {
+  max-width: 10rem;
+  filter: invert(83.75%) opacity(50%);
+}
+
+/* Footer */
+
+.cc-header {
+  font-size: 0.8rem;
+}
+
+.cc-content {
+  font-size: 0.8rem;
+}
+
+.cc-logo {
+  max-width: 15rem;
+}
+
+/* Mobile */
+
+/* xs */
+@media all and (max-width: 28em) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .film-subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+/* md */
+@media all and (min-width: 62em) {
+  .footer {
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
+
+  .cc-logo {
+    filter: invert(1);
+  }
+}
+
+/* About Page  */
+.header-bg {
+  background-image: url('../assets/forcefield.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-subtitle {
+  background-color: #fff;
+  border: 2px solid #ededed;
+}
+
+.runaway {
+  height: 25vh;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: #c04848;  /* fallback for old browsers */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("https://images.ctfassets.net/5d2t8cwaye54/1x55iwLGnUM5yiyRjYj0Wv/8abdc8461c22bcf1352a7cce9a610d5f/RunawayFeature2.jpg?w=1440&h=616&fit=fill&fm=webp");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("https://images.ctfassets.net/5d2t8cwaye54/1x55iwLGnUM5yiyRjYj0Wv/8abdc8461c22bcf1352a7cce9a610d5f/RunawayFeature2.jpg?w=1440&h=616&fit=fill&fm=webp"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.the-garden {
+  height: 25vh;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: #c04848;  /* fallback for old browsers */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("https://images.ctfassets.net/5d2t8cwaye54/qXwhbLkSZUVxmUp1EjAnW/8ee4082a4eb9aad3b36380aa16868703/The_Garden_Left_Behind_1.jpg?w=1440&h=616&fit=fill&fm=webp");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("https://images.ctfassets.net/5d2t8cwaye54/qXwhbLkSZUVxmUp1EjAnW/8ee4082a4eb9aad3b36380aa16868703/The_Garden_Left_Behind_1.jpg?w=1440&h=616&fit=fill&fm=webp"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
