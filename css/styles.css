@@ -262,10 +262,10 @@ h3 {
 }
 
 /* About Page  */
-.about-header {
+.header-bg {
   background-image: url('../assets/forcefield.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .about-subtitle {
