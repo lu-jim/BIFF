@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header class="mb-4">
+  <header class="mb-1">
     <div class="language-bar d-lg-flex ms-auto justify-content-end d-none">
       <ul class="d-flex list-unstyled text-light">
         <li class="language-bar-item px-3"><img id="twitter-icon" src="../assets/twitter-logo.svg" alt="twitter"></li>
@@ -27,32 +27,32 @@
       </ul>
 
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white menu">
+      <div class="container-fluid col-12 col-md-10">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <a class="navbar-brand " href="#">Buffalo Int'l Film Festival</a>
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+          <a class="navbar-brand col-4" href="#">Buffalo Int'l Film Festival</a>
+          <ul class="navbar-nav ms-auto d-flex align-items-baseline col-8 justify-content-end">
+            <li class="nav-item mx-lg-2 mx-xl-3 mx-xxl-4">
               <a class="nav-link active" aria-current="page" href="#">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Program</a>
+            <li class="nav-item mx-lg-2 mx-xl-3 mx-xxl-4">
+              <a class="nav-link" href="#">2021 Lineup</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Join</a>
+            <li class="nav-item mx-lg-2 mx-xl-3 mx-xxl-4">
+              <a class="nav-link" href="#">Media</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sponsor</a>
+            <li class="nav-item mx-lg-2 mx-xl-3 mx-xxl-4">
+              <a class="nav-link" href="#">Support</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-lg-2 mx-xl-3 mx-xxl-4">
               <a class="nav-link" href="#">News</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CC Campaign</a>
+            <li class="nav-item mx-lg-2 mx-xl-3 mx-xxl-4">
+              <a class="nav-link buy-pass" href="#">Buy Pass</a>
             </li>
           </ul>
         </div>
@@ -60,98 +60,116 @@
     </nav>
   </header>
   <main id="base-style">
-    <section class="home-title d-flex flex-column p-3 p-md-5 m-md-3">
-      <h1 class="main-title display-1">Buffalo International Film Festival</h1>
-      <p class="main-subtitle p-1 py-md-3 my-md-1 col-md-6">We provide Western New York audiences and visitors access to the
-        very best offerings in contemporary local,
-        national, and world cinema.</p>
-      <h2 id="date" class="py-1 py-md-3 my-md-1">2021.10.7(THU) ~ 11(SUN)</h2>
-      <p>@ North Park Theatre, Hallwalls Contemporary Art Center, and more</p>
-    </section>
-    <section class="main-program text-light d-flex flex-column p-3 p-md-5 justify-content-center">
-      <div class="program-title d-flex justify-content-center py-4">
-        <h3>Main Program</h3>
+    <section class="home-title d-flex flex-column justify-content-center align-items-center pt-3">
+      <div class="row d-flex justify-content-center">
+        <h1 class="main-title display-1 col-12 col-md-10">Buffalo International Film Festival</h1>
+        <div class="col-12 col-md-10">
+          <p class="main-subtitle p-1 py-md-3 my-md-1 col-12 col-md-8 col-lg-6">We provide Western New York audiences
+            and visitors
+            access to the
+            very best offerings in contemporary local,
+            national, and world cinema.</p>
+        </div>
+        <h2 id="date" class="py-1 py-md-3 my-md-1 col-12 col-md-10">2021.10.7(THU) ~ 11(SUN)</h2>
+        <p class=" col-12 col-md-10">@ North Park Theatre, Hallwalls Contemporary Art Center, and more</p>
       </div>
-      <div class="d-flex flex-column row-cols-lg-5 flex-md-row gx-md-5">
-        <div class="col px-lg-1 d-flex flex-md-column card-column">
+    </section>
+    <section
+      class="main-program text-light d-flex flex-column p-3 p-md-5 justify-content-center row align-items-center m-0">
+      <div class="program-title d-flex justify-content-center py-4 flex-column align-items-center">
+        <h3>Main Program</h3>
+        <hr class="divider">
+      </div>
+      <div class="d-flex flex-column row-cols-lg-5 flex-lg-row gx-md-5 col-12 col-xl-10">
+        <div class="col px-lg-1 d-flex flex-lg-column card-column">
           <div class="row align-baseline program-card my-2 py-3 h-100">
-            <div class="col-2 col-md-12"><img src="../assets/01-lecture.png" class="card-img-top custom-card-image"
-                alt="...">
+            <div class="col-2 col-lg-12 d-flex justify-content-center"><img src="../assets/01-lecture.png"
+                class="card-img-top custom-card-image" alt="...">
             </div>
-            <div class="col-3 col-md-12">
-              <h3 class="card-title">Lecture</h3>
+            <div class="col-3 col-lg-12">
+              <h3 class="card-title text-lg-center">Lecture</h3>
             </div>
-            <div class="col-7 col-md-12">
-              <p class="card-text">Interview with Producer and Writer Paul Papadeas by Alycia Ripley</p>
+            <div class="col-7 col-lg-12">
+              <p class="card-text text-lg-center">Interview with Producer and Writer Paul Papadeas by Alycia Ripley</p>
             </div>
           </div>
 
         </div>
-        <div class="col px-lg-1 d-flex flex-md-column card-column">
-          <div class="row program-card my-2 py-3  h-100">
-            <div class="col-2  col-md-12"> <img src="../assets/02-cc-exhibition.png"
+        <div class="col px-lg-1 d-flex flex-lg-column card-column">
+          <div class="row align-baseline program-card my-2 py-3 h-100">
+            <div class="col-2  col-lg-12 d-flex justify-content-center"> <img src="../assets/02-cc-exhibition.png"
                 class="card-img-top  custom-card-image" alt="..."></div>
-            <div class="col-3  col-md-12">
-              <h3 class="card-title">CC Exhibition</h3>
+            <div class="col-3  col-lg-12">
+              <h3 class="card-title text-lg-center">Exhibition</h3>
             </div>
-            <div class="col-7  col-md-12">
-              <p class="card-text text-wrap">15th Annual Buffalo Int’l Film Festival Announces Lineup In Theaters +
+            <div class="col-7  col-lg-12">
+              <p class="card-text text-wrap text-lg-center">15th Annual Buffalo Int’l Film Festival Announces Lineup In
+                Theaters +
                 Online
                 October 7–11, 2021</p>
             </div>
           </div>
         </div>
-        <div class="col px-lg-1 d-flex flex-md-column card-column">
+        <div class="col px-lg-1 d-flex flex-lg-column card-column">
           <div class="row program-card my-2 py-3  h-100">
-            <div class="col-2 col-md-12"><img src="../assets/03-forum.png" class="card-img-top  custom-card-image"
-                alt="...">
+            <div class="col-2 col-lg-12 d-flex justify-content-center"><img src="../assets/03-forum.png"
+                class="card-img-top  custom-card-image" alt="...">
             </div>
-            <div class="col-3  col-md-12">
-              <h3 class="card-title">Forum</h3>
+            <div class="col-3  col-lg-12">
+              <h3 class="card-title text-lg-center">Forum</h3>
             </div>
-            <div class="col-7  col-md-12">
-              <p class="card-text text-wrap">This panel focuses on two of the films in this year's festival shot on
+            <div class="col-7  col-lg-12">
+              <p class="card-text text-wrap text-lg-center">This panel focuses on two of the films in this year's
+                festival shot on
                 location
-                in Buffalo and explores place in story and cinema, and cinema as a landscape onto itself.</p>
+                in Buffalo and explores place in story and cinema.</p>
             </div>
           </div>
         </div>
-        <div class="col px-lg-1 d-flex flex-md-column card-column">
+        <div class="col px-lg-1 d-flex flex-lg-column card-column">
           <div class="row program-card my-2 py-3  h-100">
-            <div class="col-2  col-md-12"><img src="../assets/04-opportunities.png"
+            <div class="col-2  col-lg-12 d-flex justify-content-center"><img src="../assets/04-opportunities.png"
                 class="card-img-top  custom-card-image" alt="..."></div>
-            <div class="col-3  col-md-12">
-              <h3 class="card-title">Workshop</h3>
+            <div class="col-3  col-lg-12">
+              <h3 class="card-title text-lg-center">Workshop</h3>
             </div>
-            <div class="col-7  col-md-12">
-              <p class="card-text text-wrap">Join in on the action! Add your name to our volunteer list and help with
+            <div class="col-7  col-lg-12">
+              <p class="card-text text-wrap text-lg-center">Join in on the action! Add your name to our volunteer list
+                and help with
                 our
                 festival and other special events throughout the year.</p>
             </div>
           </div>
         </div>
-        <div class="col px-lg-1 d-flex flex-md-column card-column">
+        <div class="col px-lg-1 d-flex flex-lg-column card-column">
           <div class="row program-card my-2 py-3 h-100">
-            <div class="col-2  col-md-12"> <img src="../assets/05-buy-pass.png" class="card-img-top  custom-card-image"
-                alt="..."></div>
-            <div class="col-3  col-md-12">
-              <h3 class="card-title">Bison Pass</h3>
+            <div class="col-2  col-lg-12 d-flex justify-content-center"> <img src="../assets/05-buy-pass.png"
+                class="card-img-top  custom-card-image" alt="..."></div>
+            <div class="col-3  col-lg-12">
+              <h3 class="card-title text-lg-center">Bison Pass</h3>
             </div>
-            <div class="col-7  col-md-12">
-              <p class="card-text text-wrap">Reserve tickets to theatrical screenings (October 8-11) and virtual
-                screenings
-                (on view Oct 7-11).</p>
+            <div class="col-7  col-lg-12">
+              <p class="card-text text-wrap text-lg-center">Reserve tickets to theatrical screenings (October 8-11) and
+                virtual
+                screenings(on view Oct 7-11).</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="d-flex w-100 justify-content-center py-4">
-        <button type="button" class="btn btn-danger p-3 fs-2 bo">Buy Pass</button>
+      <div class="d-none w-100 justify-content-center py-4 d-lg-flex">
+        <a href="#" class="program-link text-uppercase text-light">See The Whole Schedule</a>
+      </div>
+      <div class="d-flex w-100 justify-content-center py-4 d-lg-none">
+        <button type="button" class="btn btn-danger p-4 fs-2 bo col-8">Buy Bison Pass</button>
       </div>
     </section>
 
     <section class="partner py-5" id="partner">
-      <h3 class="d-flex justify-content-center text-light">Partners</h3>
+      <h3 class="d-flex justify-content-center text-light partner-text">Partners</h3>
+      <div class="d-flex justify-content-center align-items-center">
+        <hr class="divider">
+      </div>
+
       <div class="row row-cols-auto gx-5 d-flex justify-content-center gap-1 gap-md-3 gap-lg-4 py-5">
         <div class="col">
           <img alt="NYSCA" class="partner-logo"

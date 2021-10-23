@@ -65,6 +65,10 @@ h3 {
   background-color: #d3d3d3;
 }
 
+#about-page {
+  background-color: #f7f7f7;
+}
+
 /* Langbar */
 .language-bar {
   background-color: #000;
@@ -101,6 +105,10 @@ h3 {
 }
 
 /* Home */
+.home-title {
+  height: 75vh;
+}
+
 .main-title {
   color: #ec5242;
   text-transform: uppercase;
@@ -111,6 +119,10 @@ h3 {
   border: 2px solid #fff;
 }
 
+.buy-pass {
+  border: #ec5242 solid 4px;
+}
+
 /* Main Program */
 .main-program {
   background-color: #272a31;
@@ -119,6 +131,24 @@ h3 {
 
 .program-card {
   background-color: rgba(211, 211, 211, 0.1);
+}
+
+.card-title {
+  color: #ec5242;
+}
+
+.divider {
+  background-color: #ec5242;
+  width: 4rem;
+  padding: 0.1rem 0;
+  opacity: 100;
+}
+
+.film-divider {
+  background-color: #ec5242;
+  width: 2rem;
+  padding: 0.05rem 0;
+  opacity: 100;
 }
 
 .card-img-top {
@@ -169,6 +199,10 @@ h3 {
   background-color: #272a31;
 }
 
+.partner-text {
+  filter: opacity(50%);
+}
+
 .partner-logo {
   max-width: 10rem;
   filter: invert(83.75%) opacity(50%);
@@ -189,6 +223,8 @@ h3 {
 }
 
 /* Mobile */
+
+/* xs */
 @media all and (max-width: 28em) {
   .main-title {
     font-size: 2.5rem;
@@ -207,8 +243,32 @@ h3 {
   }
 }
 
-@media all and (max-width: 50em) {
+/* md */
+@media all and (max-width: 48em) {
   .cc-content {
     display: none;
   }
+}
+
+/* lg */
+@media all and (max-width: 62em) {
+  .menu {
+    background-color: #d3d3d3 !important;
+  }
+
+  body {
+    background-color: #d3d3d3;
+  }
+}
+
+/* About Page  */
+.about-header {
+  background-image: url('../assets/forcefield.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-subtitle {
+  background-color: #fff;
+  border: 2px solid #ededed;
 }

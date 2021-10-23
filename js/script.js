@@ -52,11 +52,11 @@ const film6 = new Film(
 const lineup2021 = [film1, film2, film3, film4, film5, film6];
 
 // Helper functions
-function createNode(type, nodeClass) {
+const createNode = (type, nodeClass) => {
   const node = document.createElement(type);
   if (nodeClass) node.className = nodeClass;
   return node;
-}
+};
 // Show lineup
 
 function showLineup(referenceNode) {
@@ -65,8 +65,9 @@ function showLineup(referenceNode) {
   referenceNode.parentNode.insertBefore(lineup, referenceNode);
   const filmDiv = createNode('div', 'film row p-3 p-md-5');
   lineup.appendChild(filmDiv);
-  const lineupHeader = filmDiv.appendChild(createNode('h2', 'd-flex justify-content-center py-4'));
+  const lineupHeader = filmDiv.appendChild(createNode('h2', 'd-flex py-4 flex-column align-items-center'));
   lineupHeader.innerHTML = '2021 Lineup';
+  lineupHeader.appendChild(createNode('hr', 'divider'));
   lineup2021.forEach((film) => {
     const filmLeft = filmDiv.appendChild(createNode('div', 'col-12 col-md-6 col-lg-3 p-2'));
     const filmImg = filmLeft.appendChild(createNode('img', 'film-image'));
@@ -74,7 +75,8 @@ function showLineup(referenceNode) {
 
     const filmRight = filmDiv.appendChild(createNode('div', 'col-12 col-md-6 col-lg-3 d-flex flex-column'));
     const filmTitle = filmRight.appendChild(createNode('h3', 'film-title'));
-    const filmDescription = filmRight.appendChild(createNode('h4', 'film-subtitle'));
+    const filmDescription = filmRight.appendChild(createNode('h4', 'film-subtitle mb-0'));
+    filmRight.appendChild(createNode('hr', 'film-divider'));
     const filmSynopsis = filmRight.appendChild(createNode('p', 'film-synopsis'));
     filmTitle.innerHTML = film.title;
     filmDescription.innerHTML = film.description;
